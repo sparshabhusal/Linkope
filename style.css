@@ -1,0 +1,17 @@
+/* style.css */
+
+/* Custom styles for the body to ensure background image covers the whole page */
+body {
+    /* Use assets/color.png as the background image */
+    background-image: url('assets/color.png');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-color: #1a1a1a; /* Fallback background color if image fails to load */
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+    margin: 0; /* Remove default body margin */
+    /* Font family is now applied directly in HTML via Tailwind and Google Fonts */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+}
